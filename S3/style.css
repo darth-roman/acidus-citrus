@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Ines";
+    src: url(Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+body{
+    --bgColor: #99582A;
+    --textColor: hsl(138, 50%, 40%);
+
+    --mainFont: "Aleo", serif;
+
+
+    background: var(--bgColor);
+
+    font-family: "Ines";
+    
+    color: rgb(255, 249, 172);
+
+}
+
+a{
+    color: rgb(255, 249, 172);
+    text-decoration: none;
+}
+
+img{
+    width: 350px;
+}
+
+
+#identity{
+    text-align: center;
+}
+
+#bio{
+    background: rgb(119, 101, 237);
+    color: rgb(255, 250, 250);
+    padding: 5px;
+}
+
+#lists #hobbies ul{
+    list-style: "🎃 ";
+}
+
+header ul {
+    list-style: none;
+    text-align: center;
+}
+
+header ul li{
+    display: inline;
+    margin: 10px;
+    padding: 10px 20px 30px 40px;
+    /* border: 5px white dotted; */
+}

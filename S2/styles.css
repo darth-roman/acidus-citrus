@@ -1,0 +1,38 @@
+body{
+    /* background-image: url(edf2d08e9a90390d79d47bb0cc3aa126.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-size: 20;
+}
+
+h4{
+    color: green;
+    /* background-color: red; */
+    text-align: center;
+}
+
+p{
+    background-color: rgb(20, 20, 20);
+    display: inline;
+    color: white;
+    padding: 10px;
+}
+form button{
+    box-shadow: 15px 15px orange;
+}
+#special-p{
+    color: red;
+}
+
+button{
+    padding: 10px 20px;
+}
+button[type="submit"]{
+    background-color: green;
+    color: white;
+}
+button[type="reset"]{
+    background-color: red;
+    color: white;
+}
